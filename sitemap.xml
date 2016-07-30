@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>http://yoursite.com/about/index.html</loc>
+    
+    <lastmod>2016-07-29T15:52:52.168Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/themes/index.html</loc>
+    
+    <lastmod>2016-07-28T11:09:23.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com//search.html</loc>
+    
+    <lastmod>2016-07-28T11:09:23.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2015/12/24/markdown/</loc>
+    
+    <lastmod>2016-07-28T11:09:22.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com//404.html</loc>
+    
+    <lastmod>2016-07-28T11:09:22.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/case/index.html</loc>
+    
+    <lastmod>2016-07-28T11:09:22.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/instagram/index.html</loc>
+    
+    <lastmod>2016-07-28T11:09:22.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2016/07/29/hello-world/</loc>
+    
+    <lastmod>2016-07-27T12:16:54.000Z</lastmod>
+    
+  </url>
+  
+</urlset>
