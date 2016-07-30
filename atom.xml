@@ -183,7 +183,7 @@
 <p>A <a href="http://www.jianshu.com/p/21d355525bdf#fn_lemma_a" title="描述" target="_blank" rel="external"><a href="链接地址" title="描述">1</a></a></p>
 <h3 id="创建链接"><a href="#创建链接" class="headerlink" title="创建链接"></a>创建链接</h3><figure class="highlight less"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">为输入的URL或邮箱自动创建链接，如test<span class="variable">@domain</span>.com。</div><div class="line">Markdown语法：</div><div class="line"></div><div class="line">&lt;test<span class="variable">@domain</span>.com&gt;</div></pre></td></tr></table></figure>
 <p>预览效果：</p>
-<p><a href="&#x6d;&#97;&#105;&#x6c;&#116;&#x6f;&#58;&#x74;&#x65;&#115;&#116;&#x40;&#x64;&#111;&#109;&#97;&#105;&#110;&#46;&#x63;&#111;&#x6d;">&#x74;&#x65;&#115;&#116;&#x40;&#x64;&#111;&#109;&#97;&#105;&#110;&#46;&#x63;&#111;&#x6d;</a></p>
+<p><a href="&#x6d;&#97;&#x69;&#x6c;&#116;&#111;&#58;&#x74;&#101;&#115;&#116;&#64;&#100;&#x6f;&#109;&#97;&#105;&#110;&#x2e;&#x63;&#x6f;&#109;">&#x74;&#101;&#115;&#116;&#64;&#100;&#x6f;&#109;&#97;&#105;&#110;&#x2e;&#x63;&#x6f;&#109;</a></p>
 <h3 id="转义字符"><a href="#转义字符" class="headerlink" title="转义字符"></a>转义字符</h3><figure class="highlight taggerscript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div></pre></td><td class="code"><pre><div class="line">在特殊字符，如*、[、&gt;等前面加<span class="symbol">\可</span>使特殊格式字符转换为正常字符打出（有序列表符号如1.，须在. 前加<span class="symbol">\）</span>。</div><div class="line"></div><div class="line">Markdown语法：</div><div class="line"></div><div class="line"><span class="symbol">\\</span></div><div class="line"><span class="symbol">\`</span></div><div class="line"><span class="symbol">\*</span></div><div class="line"><span class="symbol">\_</span></div><div class="line"><span class="symbol">\&#123;</span><span class="symbol">\&#125;</span></div><div class="line"><span class="symbol">\[</span><span class="symbol">\]</span></div><div class="line"><span class="symbol">\(</span><span class="symbol">\)</span></div><div class="line"><span class="symbol">\#</span></div><div class="line"><span class="symbol">\+</span></div><div class="line"><span class="symbol">\-</span></div><div class="line"><span class="symbol">\.</span></div><div class="line"><span class="symbol">\!</span></div></pre></td></tr></table></figure>
 <p>预览效果：</p>
 <p>\<br>`<br>*<br>_<br>{}<br>[]<br>()<br>#<br>+<br>-<br>.<br>!</p>
@@ -221,9 +221,11 @@
     <link href="http://yoursite.com/2015/06/08/test-md/"/>
     <id>http://yoursite.com/2015/06/08/test-md/</id>
     <published>2015-06-08T08:20:25.000Z</published>
-    <updated>2016-07-30T14:34:52.454Z</updated>
+    <updated>2016-07-30T14:48:44.828Z</updated>
     
-    <content type="html"><![CDATA[<h3 id="测试代码-C-C"><a href="#测试代码-C-C" class="headerlink" title="测试代码 C/C++"></a>测试代码 C/C++</h3><figure class="highlight c"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></div><div class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></div><div class="line">&#123;</div><div class="line">	<span class="keyword">int</span> a=<span class="number">1</span>;</div><div class="line">	<span class="keyword">int</span> b=<span class="number">2</span>;</div><div class="line">	<span class="keyword">int</span> c=a+b;</div><div class="line">	<span class="built_in">printf</span>(<span class="string">"%d"</span>,c);</div><div class="line">	<span class="keyword">return</span> <span class="number">0</span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+    <content type="html"><![CDATA[<pre><code>**借yafeng的来用用
+</code></pre><a id="more"></a>
+<h3 id="测试代码-C-C"><a href="#测试代码-C-C" class="headerlink" title="测试代码 C/C++"></a>测试代码 C/C++</h3><figure class="highlight c"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></div><div class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></div><div class="line">&#123;</div><div class="line">	<span class="keyword">int</span> a=<span class="number">1</span>;</div><div class="line">	<span class="keyword">int</span> b=<span class="number">2</span>;</div><div class="line">	<span class="keyword">int</span> c=a+b;</div><div class="line">	<span class="built_in">printf</span>(<span class="string">"%d"</span>,c);</div><div class="line">	<span class="keyword">return</span> <span class="number">0</span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
 <h3 id="测试代码-Python"><a href="#测试代码-Python" class="headerlink" title="测试代码 Python"></a>测试代码 Python</h3><pre><code class="python"><span class="keyword">import</span> os
 <span class="function"><span class="keyword">def</span> <span class="title">hello</span><span class="params">()</span>:</span>
     print(<span class="string">"hello world"</span>)
@@ -236,7 +238,8 @@ os.system(<span class="string">"free -h"</span>)
     
     <summary type="html">
     
-      &lt;h3 id=&quot;测试代码-C-C&quot;&gt;&lt;a href=&quot;#测试代码-C-C&quot; class=&quot;headerlink&quot; title=&quot;测试代码 C/C++&quot;&gt;&lt;/a&gt;测试代码 C/C++&lt;/h3&gt;&lt;figure class=&quot;highlight c&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td cl
+      &lt;pre&gt;&lt;code&gt;**借yafeng的来用用
+&lt;/code&gt;&lt;/pre&gt;
     
     </summary>
     
