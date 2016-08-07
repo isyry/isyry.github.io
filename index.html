@@ -78,6 +78,60 @@
         <header class="article-info clearfix">
   <h1 itemprop="name">
     
+      <a href="/2016/08/07/youcompleteme/" title="youcompleteme" itemprop="url">youcompleteme</a>
+  </h1>
+  <p class="article-author">By
+       
+		<a href="/about" title="John Doe" target="_blank" itemprop="author">John Doe</a>
+		
+  <p class="article-time">
+    <time datetime="2016-08-07T03:40:57.000Z" itemprop="datePublished"> 发表于 2016-08-07</time>
+    
+  </p>
+</header>
+    <div class="article-content">
+        
+        <h2 id="YouCompleteMe"><a href="#YouCompleteMe" class="headerlink" title="YouCompleteMe"></a>YouCompleteMe</h2><p>使用vundle实在太慢或者出错,所以自己直接clone</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">$ <span class="built_in">cd</span> .vim/bundle/</div><div class="line">$ git <span class="built_in">clone</span> https://github.com/Valloric/YouCompleteMe.git</div><div class="line">$ git submodule update --init --recursive</div></pre></td></tr></table></figure>
+<p>编译一下，–system-libclang是使用系统的clang，不需要另行下载<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ <span class="built_in">cd</span> YouCompleteMe</div><div class="line">$ ./install.sh --clang-complete --system-libclang</div></pre></td></tr></table></figure></p>
+<p>配置.vimrc</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ <span class="built_in">echo</span> <span class="built_in">let</span> g:ycm_global_ycm_extra_conf = <span class="string">'~/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/.ycm_extra_conf.py'</span> &gt;&gt; ~/.vimrc</div></pre></td></tr></table></figure>
+
+        
+        
+        <p class="article-more-link">
+          
+       </p>
+    </div>
+    <footer class="article-footer clearfix">
+<div class="article-catetags">
+
+
+</div>
+
+
+
+
+<div class="comments-count">
+	
+</div>
+
+</footer>
+
+
+    </article>
+
+
+
+
+
+
+   
+    
+    <article class="post-expand post" itemprop="articleBody"> 
+        <header class="article-info clearfix">
+  <h1 itemprop="name">
+    
       <a href="/2016/07/29/hello-world/" title="Hello World" itemprop="url">Hello World</a>
   </h1>
   <p class="article-author">By
@@ -286,15 +340,15 @@
 		<ul class="clearfix">
 		
 			
-				<li><a href="/tags/Markdown/" title="Markdown">Markdown<sup>1</sup></a></li>
-			
-		
-			
 				<li><a href="/tags/markdown/" title="markdown">markdown<sup>1</sup></a></li>
 			
 		
 			
 				<li><a href="/tags/hexo/" title="hexo">hexo<sup>1</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/Markdown/" title="Markdown">Markdown<sup>1</sup></a></li>
 			
 		
 		</ul>
