@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-08-07T04:01:12.841Z</updated>
+  <updated>2016-08-10T13:44:29.939Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -14,6 +14,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>xware</title>
+    <link href="http://yoursite.com/2016/08/10/xware/"/>
+    <id>http://yoursite.com/2016/08/10/xware/</id>
+    <published>2016-08-10T13:34:00.000Z</published>
+    <updated>2016-08-10T13:44:29.939Z</updated>
+    
+    <content type="html"><![CDATA[<p>下载xware的docker镜像<br><a href="https://github.com/yinheli/docker-thunder-xware" target="_blank" rel="external">https://github.com/yinheli/docker-thunder-xware</a><br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="variable">$docker</span> pull yinheli/docker-thunder-xware:latest</div></pre></td></tr></table></figure></p>
+<p>创建一个下载目录<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="variable">$mkdir</span> data</div></pre></td></tr></table></figure></p>
+<p>运行<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="variable">$docker</span> run <span class="_">-d</span> --name=xware --net=host -v $(<span class="built_in">pwd</span>)/data:/app/TDDOWNLOAD yinheli/docker-thunder-xware</div></pre></td></tr></table></figure></p>
+<p>查看运行情况<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="variable">$docker</span> ps</div></pre></td></tr></table></figure></p>
+<p>有什么镜像<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="variable">$docker</span> images</div></pre></td></tr></table></figure></p>
+<p>查看激活码<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="variable">$docker</span> logs xware</div></pre></td></tr></table></figure></p>
+<p>THE ACTIVE CODE IS: 这一行</p>
+<p>打开<a href="http://yuancheng.xunlei.com/" target="_blank" rel="external">http://yuancheng.xunlei.com/</a><br>登录填写激活码</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;下载xware的docker镜像&lt;br&gt;&lt;a href=&quot;https://github.com/yinheli/docker-thunder-xware&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://github.com/yinheli/d
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>youcompleteme</title>
@@ -206,7 +232,7 @@
 <p>A <a href="http://www.jianshu.com/p/21d355525bdf#fn_lemma_a" title="描述" target="_blank" rel="external"><a href="链接地址" title="描述">1</a></a></p>
 <h3 id="创建链接"><a href="#创建链接" class="headerlink" title="创建链接"></a>创建链接</h3><figure class="highlight less"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">为输入的URL或邮箱自动创建链接，如test<span class="variable">@domain</span>.com。</div><div class="line">Markdown语法：</div><div class="line"></div><div class="line">&lt;test<span class="variable">@domain</span>.com&gt;</div></pre></td></tr></table></figure>
 <p>预览效果：</p>
-<p><a href="&#109;&#97;&#105;&#108;&#x74;&#x6f;&#58;&#x74;&#x65;&#115;&#x74;&#64;&#100;&#x6f;&#109;&#x61;&#105;&#x6e;&#x2e;&#99;&#111;&#x6d;">&#x74;&#x65;&#115;&#x74;&#64;&#100;&#x6f;&#109;&#x61;&#105;&#x6e;&#x2e;&#99;&#111;&#x6d;</a></p>
+<p><a href="&#x6d;&#x61;&#105;&#108;&#116;&#111;&#x3a;&#116;&#x65;&#115;&#x74;&#x40;&#x64;&#x6f;&#x6d;&#97;&#105;&#x6e;&#x2e;&#99;&#111;&#x6d;">&#116;&#x65;&#115;&#x74;&#x40;&#x64;&#x6f;&#x6d;&#97;&#105;&#x6e;&#x2e;&#99;&#111;&#x6d;</a></p>
 <h3 id="转义字符"><a href="#转义字符" class="headerlink" title="转义字符"></a>转义字符</h3><figure class="highlight taggerscript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div></pre></td><td class="code"><pre><div class="line">在特殊字符，如*、[、&gt;等前面加<span class="symbol">\可</span>使特殊格式字符转换为正常字符打出（有序列表符号如1.，须在. 前加<span class="symbol">\）</span>。</div><div class="line"></div><div class="line">Markdown语法：</div><div class="line"></div><div class="line"><span class="symbol">\\</span></div><div class="line"><span class="symbol">\`</span></div><div class="line"><span class="symbol">\*</span></div><div class="line"><span class="symbol">\_</span></div><div class="line"><span class="symbol">\&#123;</span><span class="symbol">\&#125;</span></div><div class="line"><span class="symbol">\[</span><span class="symbol">\]</span></div><div class="line"><span class="symbol">\(</span><span class="symbol">\)</span></div><div class="line"><span class="symbol">\#</span></div><div class="line"><span class="symbol">\+</span></div><div class="line"><span class="symbol">\-</span></div><div class="line"><span class="symbol">\.</span></div><div class="line"><span class="symbol">\!</span></div></pre></td></tr></table></figure>
 <p>预览效果：</p>
 <p>\<br>`<br>*<br>_<br>{}<br>[]<br>()<br>#<br>+<br>-<br>.<br>!</p>

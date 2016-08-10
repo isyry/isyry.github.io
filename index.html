@@ -78,6 +78,63 @@
         <header class="article-info clearfix">
   <h1 itemprop="name">
     
+      <a href="/2016/08/10/xware/" title="xware" itemprop="url">xware</a>
+  </h1>
+  <p class="article-author">By
+       
+		<a href="/about" title="John Doe" target="_blank" itemprop="author">John Doe</a>
+		
+  <p class="article-time">
+    <time datetime="2016-08-10T13:34:00.000Z" itemprop="datePublished"> 发表于 2016-08-10</time>
+    
+  </p>
+</header>
+    <div class="article-content">
+        
+        <p>下载xware的docker镜像<br><a href="https://github.com/yinheli/docker-thunder-xware" target="_blank" rel="external">https://github.com/yinheli/docker-thunder-xware</a><br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="variable">$docker</span> pull yinheli/docker-thunder-xware:latest</div></pre></td></tr></table></figure></p>
+<p>创建一个下载目录<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="variable">$mkdir</span> data</div></pre></td></tr></table></figure></p>
+<p>运行<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="variable">$docker</span> run <span class="_">-d</span> --name=xware --net=host -v $(<span class="built_in">pwd</span>)/data:/app/TDDOWNLOAD yinheli/docker-thunder-xware</div></pre></td></tr></table></figure></p>
+<p>查看运行情况<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="variable">$docker</span> ps</div></pre></td></tr></table></figure></p>
+<p>有什么镜像<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="variable">$docker</span> images</div></pre></td></tr></table></figure></p>
+<p>查看激活码<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="variable">$docker</span> logs xware</div></pre></td></tr></table></figure></p>
+<p>THE ACTIVE CODE IS: 这一行</p>
+<p>打开<a href="http://yuancheng.xunlei.com/" target="_blank" rel="external">http://yuancheng.xunlei.com/</a><br>登录填写激活码</p>
+
+        
+        
+        <p class="article-more-link">
+          
+       </p>
+    </div>
+    <footer class="article-footer clearfix">
+<div class="article-catetags">
+
+
+</div>
+
+
+
+
+<div class="comments-count">
+	
+</div>
+
+</footer>
+
+
+    </article>
+
+
+
+
+
+
+   
+    
+    <article class="post-expand post" itemprop="articleBody"> 
+        <header class="article-info clearfix">
+  <h1 itemprop="name">
+    
       <a href="/2016/08/07/youcompleteme/" title="youcompleteme" itemprop="url">youcompleteme</a>
   </h1>
   <p class="article-author">By
