@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/2016/08/24/hdmi-sound/</loc>
+    
+    <lastmod>2016-08-24T12:49:09.547Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/2016/08/10/xware/</loc>
     
     <lastmod>2016-08-10T13:44:29.939Z</lastmod>
@@ -30,13 +37,6 @@
   </url>
   
   <url>
-    <loc>http://yoursite.com/themes/index.html</loc>
-    
-    <lastmod>2016-07-28T11:09:23.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://yoursite.com//search.html</loc>
     
     <lastmod>2016-07-28T11:09:23.000Z</lastmod>
@@ -44,7 +44,14 @@
   </url>
   
   <url>
-    <loc>http://yoursite.com/2015/12/24/markdown/</loc>
+    <loc>http://yoursite.com/themes/index.html</loc>
+    
+    <lastmod>2016-07-28T11:09:23.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/case/index.html</loc>
     
     <lastmod>2016-07-28T11:09:22.000Z</lastmod>
     
@@ -58,14 +65,14 @@
   </url>
   
   <url>
-    <loc>http://yoursite.com//404.html</loc>
+    <loc>http://yoursite.com/2015/12/24/markdown/</loc>
     
     <lastmod>2016-07-28T11:09:22.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://yoursite.com/case/index.html</loc>
+    <loc>http://yoursite.com//404.html</loc>
     
     <lastmod>2016-07-28T11:09:22.000Z</lastmod>
     

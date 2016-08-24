@@ -4,29 +4,23 @@
 <head>
   <meta charset="UTF-8">
   
-    <title>xware | Hexo</title>
+    <title>hdmi-sound | Hexo</title>
     <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
     
     <meta name="author" content="John Doe">
     
 
     
-    <meta name="description" content="下载xware的docker镜像https://github.com/yinheli/docker-thunder-xware1$docker pull yinheli/docker-thunder-xware:latest
-创建一个下载目录1$mkdir data
-运行1$docker run -d --name=xware --net=host -v $(pwd)/data:/app/TDDO">
+    <meta name="description" content="因为换了个显示器，突然使用hdmi，只是使用alsa，发现音频被独占了，而且kmix不能调音量。查了一下wiki新建~/.asoundrc1234defaults.pcm.!card 1defaults.pcm.!device 7defaults.pcm.!ctl 1defaults.pcm.dmix.rate 96000">
 <meta property="og:type" content="article">
-<meta property="og:title" content="xware">
-<meta property="og:url" content="http://yoursite.com/2016/08/10/xware/index.html">
+<meta property="og:title" content="hdmi-sound">
+<meta property="og:url" content="http://yoursite.com/2016/08/24/hdmi-sound/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="下载xware的docker镜像https://github.com/yinheli/docker-thunder-xware1$docker pull yinheli/docker-thunder-xware:latest
-创建一个下载目录1$mkdir data
-运行1$docker run -d --name=xware --net=host -v $(pwd)/data:/app/TDDO">
-<meta property="og:updated_time" content="2016-08-10T13:44:29.939Z">
+<meta property="og:description" content="因为换了个显示器，突然使用hdmi，只是使用alsa，发现音频被独占了，而且kmix不能调音量。查了一下wiki新建~/.asoundrc1234defaults.pcm.!card 1defaults.pcm.!device 7defaults.pcm.!ctl 1defaults.pcm.dmix.rate 96000">
+<meta property="og:updated_time" content="2016-08-24T12:49:09.547Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="xware">
-<meta name="twitter:description" content="下载xware的docker镜像https://github.com/yinheli/docker-thunder-xware1$docker pull yinheli/docker-thunder-xware:latest
-创建一个下载目录1$mkdir data
-运行1$docker run -d --name=xware --net=host -v $(pwd)/data:/app/TDDO">
+<meta name="twitter:title" content="hdmi-sound">
+<meta name="twitter:description" content="因为换了个显示器，突然使用hdmi，只是使用alsa，发现音频被独占了，而且kmix不能调音量。查了一下wiki新建~/.asoundrc1234defaults.pcm.!card 1defaults.pcm.!device 7defaults.pcm.!ctl 1defaults.pcm.dmix.rate 96000">
 
     
     <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
@@ -86,14 +80,14 @@
 		<header class="article-info clearfix">
   <h1 itemprop="name">
     
-      <a href="/2016/08/10/xware/" title="xware" itemprop="url">xware</a>
+      <a href="/2016/08/24/hdmi-sound/" title="hdmi-sound" itemprop="url">hdmi-sound</a>
   </h1>
   <p class="article-author">By
        
 		<a href="/about" title="John Doe" target="_blank" itemprop="author">John Doe</a>
 		
   <p class="article-time">
-    <time datetime="2016-08-10T13:34:00.000Z" itemprop="datePublished"> 发表于 2016-08-10</time>
+    <time datetime="2016-08-24T12:44:27.000Z" itemprop="datePublished"> 发表于 2016-08-24</time>
     
   </p>
 </header>
@@ -106,14 +100,7 @@
 		
 		</div>
 		
-		<p>下载xware的docker镜像<br><a href="https://github.com/yinheli/docker-thunder-xware" target="_blank" rel="external">https://github.com/yinheli/docker-thunder-xware</a><br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="variable">$docker</span> pull yinheli/docker-thunder-xware:latest</div></pre></td></tr></table></figure></p>
-<p>创建一个下载目录<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="variable">$mkdir</span> data</div></pre></td></tr></table></figure></p>
-<p>运行<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="variable">$docker</span> run <span class="_">-d</span> --name=xware --net=host -v $(<span class="built_in">pwd</span>)/data:/app/TDDOWNLOAD yinheli/docker-thunder-xware</div></pre></td></tr></table></figure></p>
-<p>查看运行情况<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="variable">$docker</span> ps</div></pre></td></tr></table></figure></p>
-<p>有什么镜像<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="variable">$docker</span> images</div></pre></td></tr></table></figure></p>
-<p>查看激活码<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="variable">$docker</span> logs xware</div></pre></td></tr></table></figure></p>
-<p>THE ACTIVE CODE IS: 这一行</p>
-<p>打开<a href="http://yuancheng.xunlei.com/" target="_blank" rel="external">http://yuancheng.xunlei.com/</a><br>登录填写激活码</p>
+		<p>因为换了个显示器，突然使用hdmi，只是使用alsa，发现音频被独占了，而且kmix不能调音量。<br>查了一下wiki<br>新建~/.asoundrc<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">defaults.pcm.!card 1</div><div class="line">defaults.pcm.!device 7</div><div class="line">defaults.pcm.!ctl 1</div><div class="line">defaults.pcm.dmix.rate 96000</div></pre></td></tr></table></figure></p>
   
 	</div>
 		<footer class="article-footer clearfix">
@@ -126,7 +113,7 @@
 
 	<div class="article-share" id="share">
 	
-	  <div data-url="http://yoursite.com/2016/08/10/xware/" data-title="xware | Hexo" data-tsina="null" class="share clearfix">
+	  <div data-url="http://yoursite.com/2016/08/24/hdmi-sound/" data-title="hdmi-sound | Hexo" data-tsina="null" class="share clearfix">
 	  </div>
 	
 	</div>
@@ -139,19 +126,11 @@
 	
 <nav class="article-nav clearfix">
  
- <div class="prev" >
- <a href="/2016/08/24/hdmi-sound/" title="hdmi-sound">
-  <strong>上一篇：</strong><br/>
-  <span>
-  hdmi-sound</span>
-</a>
-</div>
-
 
 <div class="next">
-<a href="/2016/08/07/youcompleteme/"  title="youcompleteme">
+<a href="/2016/08/10/xware/"  title="xware">
  <strong>下一篇：</strong><br/> 
- <span>youcompleteme
+ <span>xware
 </span>
 </a>
 </div>
