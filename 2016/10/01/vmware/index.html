@@ -4,23 +4,26 @@
 <head>
   <meta charset="UTF-8">
   
-    <title>hdmi-sound | Hexo</title>
+    <title>vmware | Hexo</title>
     <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
     
     <meta name="author" content="John Doe">
     
 
     
-    <meta name="description" content="因为换了个显示器，突然使用hdmi，只是使用alsa，发现音频被独占了，而且kmix不能调音量。查了一下wiki新建~/.asoundrc1234defaults.pcm.!card 1defaults.pcm.!device 7defaults.pcm.!ctl 1defaults.pcm.dmix.rate 96000">
+    <meta name="description" content="vmware安装1# sh VMware-edition-version.release.architecture.bundle
+1234$ yaourt -S vmware-systemd-services# systemctl enable vmware# systemctl enable vmware-usbarbitrator$ yaourt -S vmware-modules-dkms">
 <meta property="og:type" content="article">
-<meta property="og:title" content="hdmi-sound">
-<meta property="og:url" content="http://yoursite.com/2016/08/24/hdmi-sound/index.html">
+<meta property="og:title" content="vmware">
+<meta property="og:url" content="http://yoursite.com/2016/10/01/vmware/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="因为换了个显示器，突然使用hdmi，只是使用alsa，发现音频被独占了，而且kmix不能调音量。查了一下wiki新建~/.asoundrc1234defaults.pcm.!card 1defaults.pcm.!device 7defaults.pcm.!ctl 1defaults.pcm.dmix.rate 96000">
-<meta property="og:updated_time" content="2016-08-24T12:49:09.547Z">
+<meta property="og:description" content="vmware安装1# sh VMware-edition-version.release.architecture.bundle
+1234$ yaourt -S vmware-systemd-services# systemctl enable vmware# systemctl enable vmware-usbarbitrator$ yaourt -S vmware-modules-dkms">
+<meta property="og:updated_time" content="2016-10-01T05:41:27.066Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="hdmi-sound">
-<meta name="twitter:description" content="因为换了个显示器，突然使用hdmi，只是使用alsa，发现音频被独占了，而且kmix不能调音量。查了一下wiki新建~/.asoundrc1234defaults.pcm.!card 1defaults.pcm.!device 7defaults.pcm.!ctl 1defaults.pcm.dmix.rate 96000">
+<meta name="twitter:title" content="vmware">
+<meta name="twitter:description" content="vmware安装1# sh VMware-edition-version.release.architecture.bundle
+1234$ yaourt -S vmware-systemd-services# systemctl enable vmware# systemctl enable vmware-usbarbitrator$ yaourt -S vmware-modules-dkms">
 
     
     <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
@@ -80,14 +83,14 @@
 		<header class="article-info clearfix">
   <h1 itemprop="name">
     
-      <a href="/2016/08/24/hdmi-sound/" title="hdmi-sound" itemprop="url">hdmi-sound</a>
+      <a href="/2016/10/01/vmware/" title="vmware" itemprop="url">vmware</a>
   </h1>
   <p class="article-author">By
        
 		<a href="/about" title="John Doe" target="_blank" itemprop="author">John Doe</a>
 		
   <p class="article-time">
-    <time datetime="2016-08-24T12:44:27.000Z" itemprop="datePublished"> 发表于 2016-08-24</time>
+    <time datetime="2016-10-01T05:35:27.000Z" itemprop="datePublished"> 发表于 2016-10-01</time>
     
   </p>
 </header>
@@ -96,11 +99,14 @@
 		<div id="toc" class="toc-article">
 			<strong class="toc-title">文章目录</strong>
 		
-			
+			<ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#vmware安装"><span class="toc-number">1.</span> <span class="toc-text">vmware安装</span></a></li></ol>
 		
 		</div>
 		
-		<p>因为换了个显示器，突然使用hdmi，只是使用alsa，发现音频被独占了，而且kmix不能调音量。<br>查了一下wiki<br>新建~/.asoundrc<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">defaults.pcm.!card 1</div><div class="line">defaults.pcm.!device 7</div><div class="line">defaults.pcm.!ctl 1</div><div class="line">defaults.pcm.dmix.rate 96000</div></pre></td></tr></table></figure></p>
+		<h3 id="vmware安装"><a href="#vmware安装" class="headerlink" title="vmware安装"></a>vmware安装</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># sh VMware-edition-version.release.architecture.bundle</span></div></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">$ yaourt -S vmware-systemd-services</div><div class="line"><span class="comment"># systemctl enable vmware</span></div><div class="line"><span class="comment"># systemctl enable vmware-usbarbitrator</span></div><div class="line">$ yaourt -S vmware-modules-dkms</div></pre></td></tr></table></figure>
+<p>开启3D图形<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">~/.vmware/preferences</div><div class="line">mks.gl.allowBlacklistedDrivers = TRUE</div></pre></td></tr></table></figure></p>
+<p>卸载vmware<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># vmware-installer -u vmware-workstation</span></div><div class="line"><span class="comment"># rm /etc/systemd/system/vmware.service</span></div><div class="line"><span class="comment"># rm /etc/systemd/system/vmware-usbarbitrator.service</span></div></pre></td></tr></table></figure></p>
   
 	</div>
 		<footer class="article-footer clearfix">
@@ -113,7 +119,7 @@
 
 	<div class="article-share" id="share">
 	
-	  <div data-url="http://yoursite.com/2016/08/24/hdmi-sound/" data-title="hdmi-sound | Hexo" data-tsina="null" class="share clearfix">
+	  <div data-url="http://yoursite.com/2016/10/01/vmware/" data-title="vmware | Hexo" data-tsina="null" class="share clearfix">
 	  </div>
 	
 	</div>
@@ -126,19 +132,11 @@
 	
 <nav class="article-nav clearfix">
  
- <div class="prev" >
- <a href="/2016/10/01/vmware/" title="vmware">
-  <strong>上一篇：</strong><br/>
-  <span>
-  vmware</span>
-</a>
-</div>
-
 
 <div class="next">
-<a href="/2016/08/10/xware/"  title="xware">
+<a href="/2016/08/24/hdmi-sound/"  title="hdmi-sound">
  <strong>下一篇：</strong><br/> 
- <span>xware
+ <span>hdmi-sound
 </span>
 </a>
 </div>
@@ -153,7 +151,7 @@
   <div id="toc" class="toc-aside">
   <strong class="toc-title">文章目录</strong>
  
- 
+ <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#vmware安装"><span class="toc-number">1.</span> <span class="toc-text">vmware安装</span></a></li></ol>
  
   </div>
 

@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/2016/10/01/vmware/</loc>
+    
+    <lastmod>2016-10-01T05:41:27.066Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/2016/08/24/hdmi-sound/</loc>
     
     <lastmod>2016-08-24T12:49:09.547Z</lastmod>
@@ -58,6 +65,13 @@
   </url>
   
   <url>
+    <loc>http://yoursite.com//404.html</loc>
+    
+    <lastmod>2016-07-28T11:09:22.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/instagram/index.html</loc>
     
     <lastmod>2016-07-28T11:09:22.000Z</lastmod>
@@ -66,13 +80,6 @@
   
   <url>
     <loc>http://yoursite.com/2015/12/24/markdown/</loc>
-    
-    <lastmod>2016-07-28T11:09:22.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com//404.html</loc>
     
     <lastmod>2016-07-28T11:09:22.000Z</lastmod>
     

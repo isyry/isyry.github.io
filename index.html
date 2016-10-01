@@ -78,6 +78,59 @@
         <header class="article-info clearfix">
   <h1 itemprop="name">
     
+      <a href="/2016/10/01/vmware/" title="vmware" itemprop="url">vmware</a>
+  </h1>
+  <p class="article-author">By
+       
+		<a href="/about" title="John Doe" target="_blank" itemprop="author">John Doe</a>
+		
+  <p class="article-time">
+    <time datetime="2016-10-01T05:35:27.000Z" itemprop="datePublished"> 发表于 2016-10-01</time>
+    
+  </p>
+</header>
+    <div class="article-content">
+        
+        <h3 id="vmware安装"><a href="#vmware安装" class="headerlink" title="vmware安装"></a>vmware安装</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># sh VMware-edition-version.release.architecture.bundle</span></div></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">$ yaourt -S vmware-systemd-services</div><div class="line"><span class="comment"># systemctl enable vmware</span></div><div class="line"><span class="comment"># systemctl enable vmware-usbarbitrator</span></div><div class="line">$ yaourt -S vmware-modules-dkms</div></pre></td></tr></table></figure>
+<p>开启3D图形<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">~/.vmware/preferences</div><div class="line">mks.gl.allowBlacklistedDrivers = TRUE</div></pre></td></tr></table></figure></p>
+<p>卸载vmware<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># vmware-installer -u vmware-workstation</span></div><div class="line"><span class="comment"># rm /etc/systemd/system/vmware.service</span></div><div class="line"><span class="comment"># rm /etc/systemd/system/vmware-usbarbitrator.service</span></div></pre></td></tr></table></figure></p>
+
+        
+        
+        <p class="article-more-link">
+          
+       </p>
+    </div>
+    <footer class="article-footer clearfix">
+<div class="article-catetags">
+
+
+</div>
+
+
+
+
+<div class="comments-count">
+	
+</div>
+
+</footer>
+
+
+    </article>
+
+
+
+
+
+
+   
+    
+    <article class="post-expand post" itemprop="articleBody"> 
+        <header class="article-info clearfix">
+  <h1 itemprop="name">
+    
       <a href="/2016/08/24/hdmi-sound/" title="hdmi-sound" itemprop="url">hdmi-sound</a>
   </h1>
   <p class="article-author">By
